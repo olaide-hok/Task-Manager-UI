@@ -11,8 +11,7 @@ import {
 
 const Navbar = () => {
   return (
-    <Flex>
-      {' '}
+    <Flex as="nav" p="10px" mb="40px" alignItems="center">
       <Heading as="h1" fontSize="1.5em">
         Dojo Tasks
       </Heading>
