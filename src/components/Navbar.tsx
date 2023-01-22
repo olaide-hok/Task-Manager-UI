@@ -13,14 +13,14 @@ const Navbar = () => {
   return (
     <Flex as="nav" p="10px" mb="40px" alignItems="center">
       <Heading as="h1" fontSize="1.5em">
-        Dojo Tasks
+        Tasks UI
       </Heading>
       <Spacer />
       <HStack spacing="20px">
         <Box bg="gray.200" p="10px 15px" borderRadius="50%">
-          M
+          HK
         </Box>
-        <Text>mario@netninja.dev</Text>
+        <Text>olaidekareem43@yahoo.com</Text>
         <Button colorScheme="purple">Logout</Button>
       </HStack>
     </Flex>
